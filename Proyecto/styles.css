@@ -1,0 +1,48 @@
+#text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('imagenes/edificios.webp'); /*Aqui esta la imagen de los edificios*/
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* El fondo queda detrás del formulario */
+}
+
+#contenidoFormulario {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+#google{
+    background-color: white;
+    color: black;
+}
+
+#facebook{
+    background-color: white;
+    color: black;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
+}
+
+/* IMAGEN QUE TALVEZ NO USEMOS
+#fondoLogin{
+    position: absolute;
+    width: 470px;
+    height: 900px;
+    left: 0.89px;
+    top: 0px;  
+
+}*/
